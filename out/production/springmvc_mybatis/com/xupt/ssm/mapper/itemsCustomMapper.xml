@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xupt.ssm.mapper.ItemsCustomMapper">
+
+    <sql id="query_items_where">
+        <if test="itemsCustom!=null">
+            <if test="itemsCustom.name!=null and itemsCustom!=''">
+                items.name LIKE '%${itemsCustom.name}%'
+            </if>
+        </if>
+    </sql>
+
+    <!--商品查询-->
+    <!--parameterType传入包装对象（包装了查询条件）
+        resultType建议使用扩展对象
+    -->
+    <select id="findItemsList" parameterType="com.xupt.ssm.po.ItemsQueryVo"
+            resultType="com.xupt.ssm.po.ItemsCustom">
+        SELECT * FROM items
+          <where>
+              <include refid="query_items_where"></include>
+          </where>
+    </select>
+</mapper>
