@@ -1,8 +1,8 @@
 package com.xupt.ssm.mapper;
 
-import com.xupt.ssm.po.Items;
 import com.xupt.ssm.po.ItemsCustom;
 import com.xupt.ssm.po.ItemsQueryVo;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -18,5 +18,5 @@ public interface ItemsCustomMapper {
     public void deleteItems(Integer[] id)throws Exception;
 
     //批量修改商品信息
-    //public void updateManyItems(List<ItemsCustom> itemsList)throws Exception;
+    public void updateManyItems(List<ItemsCustom> itemsList)throws Exception;
 }

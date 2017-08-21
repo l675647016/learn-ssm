@@ -52,9 +52,10 @@ public class ItemsCustomServiceImpl implements ItemsCustomService {
         itemsCustomMapper.deleteItems(id);
     }
 
-    /*@Override
-    public void updateManyItems(List<ItemsCustom> itemsList) throws Exception {
+    @Override
+    public void updateManyItems(ItemsQueryVo itemsQueryVo) throws Exception {
+        List<ItemsCustom> itemsList = itemsQueryVo.getItemsList();
         itemsCustomMapper.updateManyItems(itemsList);
-    }*/
+    }
 
 }

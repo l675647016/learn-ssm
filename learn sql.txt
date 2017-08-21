@@ -22,3 +22,9 @@ WHERE id IN (1,2,3,4)
     括号内是要删除数据的
 */
 DELETE FROM items WHERE id IN (5,6);
+UPDATE items set name = #{items.name} , price = #{items.price} , detail = #{items.detail} ,
+        pic = #{items.pic},createtime = #{items.createtime}
+        WHERE id IN
+        <foreach collection="list" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>

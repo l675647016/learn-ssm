@@ -25,9 +25,9 @@
     <bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
         <!--转换器-->
         <property name="converters">
-            <list>
+            <set>
                 <bean class="com.xupt.ssm.controller.converter.CustomDateConverter" />
-            </list>
+            </set>
         </property>
     </bean>
 </beans>

@@ -33,8 +33,11 @@
     </delete>
 
     <!--批量修改商品信息-->
-    <!--<update id="updateManyItems" parameterType="com.xupt.ssm.po.ItemsQueryVo">
-        UPDATE items SET
-        name=#{name},price=#{price},detail=#{detail},pic=#{pic},createtime=#{createtime}
-    </update>-->
+    <update id="updateManyItems" parameterType="java.util.List" >
+        <foreach collection="list" item="items" separator=";">
+            UPDATE items set name = #{items.name} , price = #{items.price} , detail = #{items.detail} ,
+            pic = #{items.pic},createtime = #{items.createtime}
+        </foreach>
+    </update>
+
 </mapper>

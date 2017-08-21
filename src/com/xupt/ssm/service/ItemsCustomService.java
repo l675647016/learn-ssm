@@ -24,5 +24,5 @@ public interface ItemsCustomService {
     public void deleteItems(Integer[] id) throws Exception;
 
     //批量修改商品信息
-    //public void updateManyItems(List<ItemsCustom> itemsList)throws Exception;
+    public void updateManyItems(ItemsQueryVo itemsQueryVo)throws Exception;
 }

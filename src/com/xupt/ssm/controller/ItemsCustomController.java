@@ -138,6 +138,7 @@ public class ItemsCustomController {
     //批量修改商品页面，将商品信息查出来，在页面中可以编辑商品信息
     @RequestMapping("/editItemsAllSubmit")
     public String editItemsAllSubmit(ItemsQueryVo itemsQueryVo) throws Exception{
-        return "success";
+        itemsCustomService.updateManyItems(itemsQueryVo);
+        return "redirect:queryItems.action";
     }
 }
