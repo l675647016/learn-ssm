@@ -1,0 +1,24 @@
+/*
+    批量更新
+    where保证执行几次
+*/
+UPDATE items
+SET items.name = CASE id
+           WHEN 1 THEN #{name}
+           WHEN 2 THEN #{name}
+           WHEN 3 THEN #{name}
+           WHEN 4 THEN #{name}
+           END,
+  items.price = CASE id
+          WHEN 1 THEN #{price}
+          WHEN 2 THEN #{price}
+          WHEN 3 THEN #{price}
+          WHEN 4 THEN #{price}
+          END
+WHERE id IN (1,2,3,4)
+
+/*
+    批量删除
+    括号内是要删除数据的
+*/
+DELETE FROM items WHERE id IN (5,6);

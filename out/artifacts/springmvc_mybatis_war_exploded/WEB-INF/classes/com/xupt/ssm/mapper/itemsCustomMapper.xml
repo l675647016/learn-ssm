@@ -21,4 +21,20 @@
               <include refid="query_items_where"></include>
           </where>
     </select>
+    <!--批量删除商品信息-->
+    <delete id="deleteItems" parameterType="Integer[]">
+        DELETE FROM items
+        <where>
+            items.id IN
+            <foreach collection="array" item="id" open="(" close=")" separator=",">
+                #{id,jdbcType=INTEGER}
+            </foreach>
+        </where>
+    </delete>
+
+    <!--批量修改商品信息-->
+    <!--<update id="updateManyItems" parameterType="com.xupt.ssm.po.ItemsQueryVo">
+        UPDATE items SET
+        name=#{name},price=#{price},detail=#{detail},pic=#{pic},createtime=#{createtime}
+    </update>-->
 </mapper>

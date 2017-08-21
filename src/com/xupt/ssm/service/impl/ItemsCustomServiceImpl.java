@@ -47,4 +47,14 @@ public class ItemsCustomServiceImpl implements ItemsCustomService {
         itemsMapper.updateByPrimaryKeyWithBLOBs(itemsCustom);
     }
 
+    @Override
+    public void deleteItems(Integer[] id) throws Exception {
+        itemsCustomMapper.deleteItems(id);
+    }
+
+    /*@Override
+    public void updateManyItems(List<ItemsCustom> itemsList) throws Exception {
+        itemsCustomMapper.updateManyItems(itemsList);
+    }*/
+
 }

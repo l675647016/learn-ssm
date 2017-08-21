@@ -19,4 +19,10 @@ public interface ItemsCustomService {
 
     //修改商品信息
     public void updateItems(Integer id,ItemsCustom itemsCustom)throws Exception;
+
+    //批量删除商品信息
+    public void deleteItems(Integer[] id) throws Exception;
+
+    //批量修改商品信息
+    //public void updateManyItems(List<ItemsCustom> itemsList)throws Exception;
 }
