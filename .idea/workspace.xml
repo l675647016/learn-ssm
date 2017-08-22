@@ -2,37 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0fda5a5-7fea-46db-8849-58c31040e8bd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/CustomValidationMessages.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xupt/ssm/controller/validation/ValidGroup1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xupt/ssm/controller/validation/ValidGroup2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xupt/ssm/exception/CustomException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xupt/ssm/exception/CustomExceptionResolver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/error.jsp" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/springmvc_mybatis/Main.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/com/xupt/ssm/controller/ItemsCustomController.class" afterPath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/com/xupt/ssm/controller/ItemsCustomController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/com/xupt/ssm/mapper/ItemsCustomMapper.class" afterPath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/com/xupt/ssm/mapper/ItemsCustomMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/com/xupt/ssm/po/ItemsQueryVo.class" afterPath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/com/xupt/ssm/po/ItemsQueryVo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/com/xupt/ssm/service/ItemsCustomService.class" afterPath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/com/xupt/ssm/service/ItemsCustomService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/com/xupt/ssm/po/Items.class" afterPath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/com/xupt/ssm/po/Items.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/com/xupt/ssm/service/impl/ItemsCustomServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/com/xupt/ssm/service/impl/ItemsCustomServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/springmvc_mybatis/com/xupt/ssm/controller/ItemsCustomController.class" afterPath="$PROJECT_DIR$/out/production/springmvc_mybatis/com/xupt/ssm/controller/ItemsCustomController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/springmvc_mybatis/com/xupt/ssm/mapper/ItemsCustomMapper.class" afterPath="$PROJECT_DIR$/out/production/springmvc_mybatis/com/xupt/ssm/mapper/ItemsCustomMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/springmvc_mybatis/com/xupt/ssm/po/ItemsQueryVo.class" afterPath="$PROJECT_DIR$/out/production/springmvc_mybatis/com/xupt/ssm/po/ItemsQueryVo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/springmvc_mybatis/com/xupt/ssm/service/ItemsCustomService.class" afterPath="$PROJECT_DIR$/out/production/springmvc_mybatis/com/xupt/ssm/service/ItemsCustomService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/springmvc_mybatis/com/xupt/ssm/po/Items.class" afterPath="$PROJECT_DIR$/out/production/springmvc_mybatis/com/xupt/ssm/po/Items.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/springmvc_mybatis/com/xupt/ssm/service/impl/ItemsCustomServiceImpl.class" afterPath="$PROJECT_DIR$/out/production/springmvc_mybatis/com/xupt/ssm/service/impl/ItemsCustomServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/springmvc_mybatis_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc_mybatis_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/config/spring/applicationContext-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/db.properties" afterPath="$PROJECT_DIR$/config/db.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/spring/springmvc.xml" afterPath="$PROJECT_DIR$/config/spring/springmvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn sql.txt" afterPath="$PROJECT_DIR$/learn sql.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/WEB-INF/jsp/items/editItemsQuery.jsp" afterPath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/WEB-INF/jsp/items/editItemsQuery.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/com/xupt/ssm/mapper/itemsCustomMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/com/xupt/ssm/mapper/itemsCustomMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/spring/applicationContext-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/WEB-INF/jsp/items/editItems.jsp" afterPath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/WEB-INF/jsp/items/editItems.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/WEB-INF/jsp/items/itemsList.jsp" afterPath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/WEB-INF/jsp/items/itemsList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/db.properties" afterPath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/db.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/spring/springmvc.xml" afterPath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/classes/spring/springmvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/jsp/items/editItemsQuery.jsp" afterPath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/jsp/items/editItemsQuery.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/springmvc_mybatis/WEB-INF/jsp/items/editItemsQuery.jsp" afterPath="$PROJECT_DIR$/out/production/springmvc_mybatis/WEB-INF/jsp/items/editItemsQuery.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/springmvc_mybatis/com/xupt/ssm/mapper/itemsCustomMapper.xml" afterPath="$PROJECT_DIR$/out/production/springmvc_mybatis/com/xupt/ssm/mapper/itemsCustomMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/springmvc_mybatis/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/out/production/springmvc_mybatis/spring/applicationContext-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/jsp/items/editItems.jsp" afterPath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/jsp/items/editItems.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/jsp/items/itemsList.jsp" afterPath="$PROJECT_DIR$/out/artifacts/springmvc_mybatis_war_exploded/WEB-INF/jsp/items/itemsList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/springmvc_mybatis/WEB-INF/jsp/items/editItems.jsp" afterPath="$PROJECT_DIR$/out/production/springmvc_mybatis/WEB-INF/jsp/items/editItems.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/springmvc_mybatis/WEB-INF/jsp/items/itemsList.jsp" afterPath="$PROJECT_DIR$/out/production/springmvc_mybatis/WEB-INF/jsp/items/itemsList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/springmvc_mybatis/db.properties" afterPath="$PROJECT_DIR$/out/production/springmvc_mybatis/db.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/springmvc_mybatis/spring/springmvc.xml" afterPath="$PROJECT_DIR$/out/production/springmvc_mybatis/spring/springmvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springmvc_mybatis.iml" afterPath="$PROJECT_DIR$/springmvc_mybatis.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xupt/ssm/controller/ItemsCustomController.java" afterPath="$PROJECT_DIR$/src/com/xupt/ssm/controller/ItemsCustomController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xupt/ssm/mapper/ItemsCustomMapper.java" afterPath="$PROJECT_DIR$/src/com/xupt/ssm/mapper/ItemsCustomMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xupt/ssm/mapper/itemsCustomMapper.xml" afterPath="$PROJECT_DIR$/src/com/xupt/ssm/mapper/itemsCustomMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xupt/ssm/po/ItemsQueryVo.java" afterPath="$PROJECT_DIR$/src/com/xupt/ssm/po/ItemsQueryVo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xupt/ssm/service/ItemsCustomService.java" afterPath="$PROJECT_DIR$/src/com/xupt/ssm/service/ItemsCustomService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xupt/ssm/po/Items.java" afterPath="$PROJECT_DIR$/src/com/xupt/ssm/po/Items.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xupt/ssm/service/impl/ItemsCustomServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/xupt/ssm/service/impl/ItemsCustomServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/items/editItemsQuery.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/items/editItemsQuery.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/items/editItems.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/items/editItems.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/items/itemsList.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/items/itemsList.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -113,64 +116,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ItemsCustomController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/controller/ItemsCustomController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="itemsCustomMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/mapper/itemsCustomMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
-              <folding>
-                <marker date="1503313153153" expanded="true" signature="673:692" ph="SELECT * FRO... items" />
-                <marker date="1503313153153" expanded="true" signature="888:905" ph="DELETE FROM " />
-                <marker date="1503313153153" expanded="true" signature="1285:1440" ph="UPDATE items... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="itemsList.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/items/itemsList.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="53" column="114" lean-forward="true" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="114" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editItemsQuery.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/items/editItemsQuery.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0c8d7d5c-452f-44ba-ba26-54c146ae2074/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="18" column="64" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -191,11 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/db.properties" />
-        <option value="$PROJECT_DIR$/src/com/xupt/ssm/po/Items.java" />
-        <option value="$PROJECT_DIR$/src/com/xupt/ssm/mapper/itemsMAapperCustem.xml" />
-        <option value="$PROJECT_DIR$/src/com/xupt/ssm/po/ItemsCustom.java" />
-        <option value="$PROJECT_DIR$/src/com/xupt/ssm/mapper/itemsMAapperCustom.xml" />
         <option value="$PROJECT_DIR$/src/com/xupt/ssm/service/impl/ItemsServicedCustom.java" />
         <option value="$PROJECT_DIR$/src/com/xupt/ssm/service/ItemsCustom.java" />
         <option value="$PROJECT_DIR$/src/com/xupt/ssm/service/impl/ItemsCustomImpl.java" />
@@ -222,20 +163,30 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="E:/一些视频/springmvc+mybatis/springMVC/day01/code/springmvc_mybatis1208/WebRoot/WEB-INF/lib/spring-aop-3.2.0.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class" />
         <option value="$PROJECT_DIR$/src/com/xupt/ssm/controller/converter/CustomDateConverter.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/items/editItems.jsp" />
         <option value="E:/一些视频/springmvc+mybatis/springMVC/day01/code/springmvc_mybatis1208/WebRoot/WEB-INF/lib/spring-webmvc-3.2.0.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/items/itemsList.jsp" />
         <option value="$PROJECT_DIR$/src/com/xupt/ssm/po/ItemsQueryVo.java" />
-        <option value="$PROJECT_DIR$/config/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/config/spring/applicationContext-dao.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0c8d7d5c-452f-44ba-ba26-54c146ae2074/console.sql" />
-        <option value="$PROJECT_DIR$/src/com/xupt/ssm/controller/ItemsCustomController.java" />
         <option value="$PROJECT_DIR$/src/com/xupt/ssm/service/ItemsCustomService.java" />
-        <option value="$PROJECT_DIR$/src/com/xupt/ssm/service/impl/ItemsCustomServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/xupt/ssm/mapper/ItemsCustomMapper.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/items/editItemsQuery.jsp" />
         <option value="$PROJECT_DIR$/learn sql.txt" />
         <option value="$PROJECT_DIR$/src/com/xupt/ssm/mapper/itemsCustomMapper.xml" />
+        <option value="$PROJECT_DIR$/config/db.properties" />
+        <option value="$PROJECT_DIR$/config/CustomValidationMessages.properties" />
+        <option value="$PROJECT_DIR$/src/com/xupt/ssm/controller/converter/validation.java" />
+        <option value="$PROJECT_DIR$/src/com/xupt/ssm/controller/validation/ValidGroup2.java" />
+        <option value="$PROJECT_DIR$/src/com/xupt/ssm/controller/validation/ValidGroup1.java" />
+        <option value="$PROJECT_DIR$/src/com/xupt/ssm/po/Items.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/items/itemsList.jsp" />
+        <option value="$PROJECT_DIR$/src/com/xupt/ssm/exception/CustomException.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/items/error.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/error.jsp" />
+        <option value="$PROJECT_DIR$/src/com/xupt/ssm/exception/CustomExceptionResolver.java" />
+        <option value="$PROJECT_DIR$/src/com/xupt/ssm/service/impl/ItemsCustomServiceImpl.java" />
+        <option value="$PROJECT_DIR$/config/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/items/editItems.jsp" />
+        <option value="$PROJECT_DIR$/src/com/xupt/ssm/controller/ItemsCustomController.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -303,6 +254,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -340,229 +292,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc_mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc_mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc_mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc_mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="items" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc_mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc_mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc_mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc_mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc_mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc_mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="po" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc_mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc_mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc_mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc_mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ssm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc_mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc_mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc_mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc_mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc_mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springmvc_mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mybatis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -570,8 +305,8 @@
     <property name="settings.editor.selected.configurable" value="Console" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/tomcat/apache-tomcat-7.0.67/lib/servlet-api.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="E:/一些视频/springmvc+mybatis/springMVC/day02/res/jar包/文件上传/commons-io-2.4.jar!/" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -580,17 +315,21 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/SQL Dialects" value="MySQL" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\springmvc_mybatis\web\WEB-INF\jsp" />
+      <recent name="D:\workspace\springmvc_mybatis\web\WEB-INF" />
+      <recent name="D:\workspace\springmvc_mybatis\web\WEB-INF\jsp\items" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xupt.ssm.controller.validation" />
+      <recent name="com.xupt.ssm.controller.converter" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\springmvc_mybatis\web\WEB-INF\jsp\items" />
       <recent name="D:\workspace\springmvc_mybatis\config" />
       <recent name="D:\workspace\springmvc_mybatis\web\WEB-INF" />
       <recent name="D:\workspace\springmvc_mybatis\config\spring" />
       <recent name="D:\workspace\springmvc_mybatis\src\com\xupt\ssm\mapper" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\springmvc_mybatis\web\WEB-INF\jsp" />
-      <recent name="D:\workspace\springmvc_mybatis\web\WEB-INF" />
-      <recent name="D:\workspace\springmvc_mybatis\web\WEB-INF\jsp\items" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1028,6 +767,11 @@
             <option name="CONTEXT_PATH" value="/springmvc_mybatis" />
           </settings>
         </artifact>
+        <file path="D:/一些图片">
+          <settings>
+            <option name="CONTEXT_PATH" value="/pic" />
+          </settings>
+        </file>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_springmvc_mybatis" />
@@ -1130,6 +874,7 @@
       <workItem from="1503193512328" duration="19867000" />
       <workItem from="1503231602573" duration="4012000" />
       <workItem from="1503297123319" duration="15035000" />
+      <workItem from="1503365949650" duration="21061000" />
     </task>
     <servers />
   </component>
@@ -1163,11 +908,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100946000" />
+    <option name="totallyTimeSpent" value="122007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1860" height="1098" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1181,19 +925,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25702393" sideWeight="0.49782845" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26222685" sideWeight="0.49782845" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882413" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24765868" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29032257" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18621065" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18621065" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -1202,6 +946,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29032257" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1249,15 +994,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/xupt/ssm/controller/ItemsCustomController.java</url>
-          <line>140</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="37" />
+      <option name="time" value="50" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -1270,82 +1007,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/mapper/OrderdetailMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/mapper/OrdersMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3030">
-          <caret line="101" column="45" lean-forward="false" selection-start-line="101" selection-start-column="45" selection-end-line="101" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/344c266a-9dfe-409c-b54b-c6ce83bd2321/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7c709806-3a9c-45ce-a611-013271619b73/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/springmvc_mybatis/com/xupt/ssm/mapper/itemsMapperCustom.xml" />
-    <entry file="file://$PROJECT_DIR$/config/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://SpringLocalModels/module=springmvc_mybatis">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>SpringLocalModels</ID>
-          <OriginalElement>module=springmvc_mybatis</OriginalElement>
-          <nodes>
-            <node x="" y="">module=springmvc_mybatis</node>
-            <node x="" y="">fileset=springmvc_mybatis/Spring Application Context</node>
-            <node x="" y="">filePath=D:/workspace/springmvc_mybatis/config/spring/applicationContext-dao.xml</node>
-            <node x="" y="">filePath=D:/workspace/springmvc_mybatis/config/spring/applicationContext-transaction.xml</node>
-            <node x="" y="">filePath=D:/workspace/springmvc_mybatis/config/spring/springmvc.xml</node>
-            <node x="" y="">filePath=D:/workspace/springmvc_mybatis/config/spring/applicationContext-service.xml</node>
-            <node x="" y="">fileset=springmvc_mybatis/MVC application context</node>
-            <node x="" y="">fileset=springmvc_mybatis/MVC springmvc servlet context</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="439.0" y="111.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Show filesets as groups</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1356,22 +1017,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/mapper/test.java" />
     <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/test/ItemsCustemMapperTest.java" />
-    <entry file="file://$PROJECT_DIR$/config/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/spring/applicationContext-transaction.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/JavaJDKandJRE/jdk1.7.0_67/jre/lib/rt.jar!/com/sun/xml/internal/ws/client/dispatch/DispatchImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -1420,13 +1065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="15" column="87" lean-forward="false" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/po/Items.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1487,14 +1125,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/6f0b8454/0c8d7d5c-452f-44ba-ba26-54c146ae2074/order_goods.items">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1506,28 +1144,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/mapper/ItemsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="130" column="28" lean-forward="false" selection-start-line="130" selection-start-column="12" selection-end-line="130" selection-end-column="28" />
-          <folding>
-            <marker date="1502867323692" expanded="true" signature="4448:4503" ph="delete from " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/JavaJDKandJRE/jdk1.7.0_67/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
           <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/po/ItemsCustom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1543,25 +1163,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1569,25 +1170,108 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0c8d7d5c-452f-44ba-ba26-54c146ae2074/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="64" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="66" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn sql.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/spring/applicationContext-transaction.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/po/ItemsCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/CustomValidationMessages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="16" column="71" lean-forward="true" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/mapper/itemsCustomMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+          <folding>
+            <marker date="1503313153153" expanded="true" signature="673:692" ph="SELECT * FRO... items" />
+            <marker date="1503313153153" expanded="true" signature="888:905" ph="DELETE FROM " />
+            <marker date="1503313153153" expanded="true" signature="1285:1440" ph="UPDATE items... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/mapper/ItemsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="261" column="21" lean-forward="false" selection-start-line="261" selection-start-column="21" selection-end-line="261" selection-end-column="21" />
+          <folding>
+            <marker date="1502867323692" expanded="true" signature="4448:4503" ph="delete from " />
+            <marker date="1502867323692" expanded="true" signature="4787:5052" ph="insert into items... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/mapper/ItemsCustomMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
+        <state relative-caret-position="480">
           <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/service/impl/ItemsCustomServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1599,73 +1283,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0c8d7d5c-452f-44ba-ba26-54c146ae2074/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/controller/converter/validation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="18" column="64" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="66" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/items/editItems.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/controller/validation/ValidGroup2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="180">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/items/itemsList.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/po/Items.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="53" column="114" lean-forward="true" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="114" />
+        <state relative-caret-position="120">
+          <caret line="11" column="92" lean-forward="false" selection-start-line="11" selection-start-column="92" selection-end-line="11" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/controller/validation/ValidGroup1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/items/editItemsQuery.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        <state relative-caret-position="620">
+          <caret line="45" column="16" lean-forward="false" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/learn sql.txt">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/error.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        <state relative-caret-position="330">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/mapper/itemsCustomMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/service/impl/ItemsCustomServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+        <state relative-caret-position="310">
+          <caret line="38" column="44" lean-forward="false" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/items/itemsList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/exception/CustomExceptionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
           <folding>
-            <marker date="1503313153153" expanded="true" signature="673:692" ph="SELECT * FRO... items" />
-            <marker date="1503313153153" expanded="true" signature="888:905" ph="DELETE FROM " />
-            <marker date="1503313153153" expanded="true" signature="1285:1440" ph="UPDATE items... " />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/config/spring/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        <state relative-caret-position="562">
+          <caret line="62" column="26" lean-forward="false" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/items/editItems.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/controller/ItemsCustomController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+        <state relative-caret-position="412">
+          <caret line="157" column="0" lean-forward="false" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1547#1563#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xupt/ssm/exception/CustomException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

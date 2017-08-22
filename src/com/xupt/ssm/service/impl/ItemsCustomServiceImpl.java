@@ -33,9 +33,12 @@ public class ItemsCustomServiceImpl implements ItemsCustomService {
         //中间进行业务处理
         //...
         //返回itemsCustom
-        ItemsCustom itemsCustom = new ItemsCustom();
+        ItemsCustom itemsCustom = null;
         //将items的属性拷贝到itemsCustom
-        BeanUtils.copyProperties(items,itemsCustom);
+        if (items != null){
+            itemsCustom = new ItemsCustom();
+            BeanUtils.copyProperties(items,itemsCustom);
+        }
         return itemsCustom;
     }
 
