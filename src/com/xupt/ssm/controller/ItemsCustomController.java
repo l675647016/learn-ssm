@@ -11,10 +11,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.ObjectError;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -47,6 +44,7 @@ public class ItemsCustomController {
         return itemsTypes;
     }
 
+    //插叙商品列表
     @RequestMapping("/queryItems")
     public ModelAndView findItemsList(HttpServletRequest request,ItemsQueryVo itemsQueryVo) throws Exception{
         //输出共享request
@@ -57,6 +55,14 @@ public class ItemsCustomController {
         modelAndView.addObject("itemsList",itemsList);
         modelAndView.setViewName("items/itemsList");
         return modelAndView;
+    }
+
+    //查询商品信息，输出json
+    //itemsView/{id}中的{id}表示将这个位置的参数传到@PathVariable指定名称中
+    @RequestMapping("/itemsView/{id}")
+    public @ResponseBody ItemsCustom itemsView(@PathVariable("id") Integer id)throws  Exception{
+        ItemsCustom itemsCustom = itemsCustomService.findItemsById(id);
+        return itemsCustom;
     }
 
     //商品信息的修改的展示

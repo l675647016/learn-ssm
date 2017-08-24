@@ -43,6 +43,8 @@
           <element id="file-copy" path="E:/一些视频/springmvc+mybatis/springMVC/day02/code/springmvc_mybatis1208/WebRoot/WEB-INF/lib/validation-api-1.0.0.GA.jar" />
           <element id="file-copy" path="E:/一些视频/springmvc+mybatis/springMVC/day02/res/jar包/文件上传/commons-fileupload-1.2.2.jar" />
           <element id="file-copy" path="E:/一些视频/springmvc+mybatis/springMVC/day02/res/jar包/文件上传/commons-io-2.4.jar" />
+          <element id="file-copy" path="E:/一些视频/springmvc+mybatis/springMVC/day02/res/jar包/springmvc加入json支持/jackson-core-asl-1.9.11.jar" />
+          <element id="file-copy" path="E:/一些视频/springmvc+mybatis/springMVC/day02/res/jar包/springmvc加入json支持/jackson-mapper-asl-1.9.11.jar" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="springmvc_mybatis/web/Web" />

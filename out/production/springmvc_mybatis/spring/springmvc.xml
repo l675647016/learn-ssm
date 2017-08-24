@@ -14,6 +14,11 @@
 		http://www.springframework.org/schema/tx/spring-tx-3.2.xsd ">
     <!--扫描这个包controller、service等 注解-->
     <context:component-scan base-package="com.xupt.ssm.controller"></context:component-scan>
+
+    <!--静态资源解析，包括jd、css、img等-->
+    <mvc:resources location="classpath:/js/" mapping="/js/**"/>
+    <mvc:resources location="classpath:/img/" mapping="/img/**"/>
+
     <!--处理器映射器、处理器适配器等。。-->
     <mvc:annotation-driven conversion-service="conversionService" validator="validator">
     </mvc:annotation-driven>
@@ -63,4 +68,13 @@
             <value>5242880</value>
         </property>
     </bean>
+    <!--注解适配器-->
+    <!--如果使用<mvc:annotation-driven/> 则不用定义上边的内容-->
+    <!--<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+        <property name="messageConverters">
+            <list>
+                <bean class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter"></bean>
+            </list>
+        </property>
+    </bean>-->
 </beans>

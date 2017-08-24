@@ -376,5 +376,23 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://E:/一些视频/springmvc+mybatis/springMVC/day02/res/jar包/springmvc加入json支持/jackson-core-asl-1.9.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://E:/一些视频/springmvc+mybatis/springMVC/day02/res/jar包/springmvc加入json支持/jackson-mapper-asl-1.9.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
