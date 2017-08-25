@@ -5,43 +5,49 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
- * Created by 梁峻磊 on 2017/8/24.
+ * Created by 梁峻磊 on 2017/8/25.
  */
-public class HandlerInterceptor1 implements HandlerInterceptor {
-    //进入handler方法之前
-    //用于身份认证，身份授权
-    //比如身份认证，如果认证通过表示当前用户没有登陆，需要此方法拦截不再向下执行
+public class LoginInterceptor implements HandlerInterceptor{
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest,
                              HttpServletResponse httpServletResponse,
                              Object o) throws Exception {
-        System.out.println("HandlerInterceptor1...preHandle");
-        //return false表示拦截，不向下执行
-        //return true表示放行
-        return true;
+        //获取请求url
+        String url = httpServletRequest.getRequestURI();
+        //判断url是否是公开 地址（实际使用时将公开 地址配置配置文件中）
+        if (url.indexOf("login.action")>=0){
+            return true;
+        }
+
+        HttpSession session = httpServletRequest.getSession();
+        String username = (String) session.getAttribute("username");
+        if (username != null){
+            //身份存在，放行
+            return true;
+        }
+
+        httpServletRequest.getRequestDispatcher("/WEB-INF/jsp/login.jsp")
+                .forward(httpServletRequest,httpServletResponse);
+
+        return false;
     }
 
-    //进入Handler方法之后，返回modelAndView之前执行
-    //应用场景从modelAndView出发：将公用的模型数据(比如菜单导航)在这里传到视图，也可以在这里统一指定视图
     @Override
     public void postHandle(HttpServletRequest httpServletRequest,
                            HttpServletResponse httpServletResponse,
                            Object o,
                            ModelAndView modelAndView) throws Exception {
-        System.out.println("HandlerInterceptor1...postHandle");
 
     }
 
-    //执行Handler方法完成执行此方法
-    ///应用场景：统一异常处理，统一日志处理
     @Override
     public void afterCompletion(HttpServletRequest httpServletRequest,
                                 HttpServletResponse httpServletResponse,
                                 Object o,
                                 Exception e) throws Exception {
-        System.out.println("HandlerInterceptor1...afterCompletion");
 
     }
 }

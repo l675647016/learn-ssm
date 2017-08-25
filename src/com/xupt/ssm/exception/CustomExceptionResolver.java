@@ -20,7 +20,9 @@ public class CustomExceptionResolver implements HandlerExceptionResolver{
      * @return
      */
     @Override
-    public ModelAndView resolveException(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, Exception e) {
+    public ModelAndView resolveException(HttpServletRequest httpServletRequest,
+                                         HttpServletResponse httpServletResponse,
+                                         Object o, Exception e) {
         CustomException customException = null;
         //解析异常类型
         if(e instanceof CustomException){  //是系统自定义异常

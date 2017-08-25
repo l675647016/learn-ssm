@@ -69,7 +69,7 @@
         </property>
     </bean>
     <!--注解适配器-->
-    <!--如果使用<mvc:annotation-driven/> 则不用定义上边的内容-->
+    <!--如果使用<mvc:annotation-driven/> 则不用定义下边的内容-->
     <!--<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
         <property name="messageConverters">
             <list>
@@ -77,4 +77,21 @@
             </list>
         </property>
     </bean>-->
+    <!--拦截器-->
+    <mvc:interceptors>
+        <!--多个拦截器，顺序执行-->
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.xupt.ssm.interceptor.LoginInterceptor"></bean>
+        </mvc:interceptor>
+        <mvc:interceptor>
+            <!--/**表示拦截所有url，包括子url路径-->
+            <mvc:mapping path="/**"/>
+            <bean class="com.xupt.ssm.interceptor.HandlerInterceptor1"></bean>
+        </mvc:interceptor>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.xupt.ssm.interceptor.HandlerInterceptor2"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
 </beans>
